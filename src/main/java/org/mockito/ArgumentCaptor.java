@@ -136,7 +136,7 @@ public class ArgumentCaptor<T> {
     /**
      * Build a new <code>ArgumentCaptor</code>.
      * <p>
-     * Note that an <code>ArgumentCaptor</code> <b>*don't do any type checks*</b>, it is only there to avoid casting
+     * Note that an <code>ArgumentCaptor</code> <b>*doesn't perform any type checking*</b>; it is only there to avoid casting
      * in your code. This might however change (type checks could be added) in a
      * future major release.
      *
